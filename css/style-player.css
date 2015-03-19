@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body { margin:0;
+  padding:0;
+  background: url(../images/fond-web.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */ }
+
+a {color:#0082a2;
+  text-decoration: none;}
+
+a:hover {text-decoration:underline; }
+
+
+.bloc{ height:30px;
+width:100%;
+text-align:center;
+background-color:none;
+position: absolute;
+top:90%;
+display:inline-block;
+	
+	
+}
+
+
+.contact {
+	
+	position: absolute;
+	bottom:-10px;
+	width:350px;
+	right: 45px;
+	
+	
+}
+
+.contact-txt {
+	font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+	width:100%;
+	color:#0082a2;
+	letter-spacing:0.1em;
+}
