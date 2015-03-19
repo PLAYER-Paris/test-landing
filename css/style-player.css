@@ -22,7 +22,9 @@ a:hover {
   max-width: 100%;
   position: absolute;
     top: 40%;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
   padding: 20px;
 }
 
@@ -60,7 +62,9 @@ a:hover {
     position: absolute;
       top: 40%;
       left: 50%;
-    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+      -ms-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
     padding: 0;
   }
 }
@@ -70,7 +74,9 @@ a:hover {
     position: absolute;
       bottom: -400px;
       right: -780px;
-    transform: rotate(37deg);
+     -webkit-transform: rotate(37deg);
+      -ms-transform: rotate(37deg);
+          transform: rotate(37deg);
     height: 1000px;
     width: 1000px;
     background: #fff;
