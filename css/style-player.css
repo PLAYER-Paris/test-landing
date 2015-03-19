@@ -1,44 +1,80 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body { margin:0;
+body {
+  margin:0;
   padding:0;
-  background: url(../images/fond-web.jpg) no-repeat center fixed; 
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */ }
-
-a {color:#0082a2;
-  text-decoration: none;}
-
-a:hover {text-decoration:underline; }
-
-
-.bloc{ height:30px;
-width:100%;
-text-align:center;
-background-color:none;
-position: absolute;
-top:90%;
-display:inline-block;
-	
-	
+  height: 100%;
+  overflow: hidden;
+  background-color: #0082a2;
 }
 
+a {
+  color:#0082a2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+.title-text {
+  max-width: 100%;
+  position: absolute;
+    top: 40%;
+  transform: translateY(-50%);
+}
+
+.title-text img {
+  max-width: 100%;
+}
 
 .contact {
-	
 	position: absolute;
-	bottom:-10px;
-	width:350px;
-	right: 45px;
-	
-	
+	 bottom: 0;
+	 right: 0;
+   left: 0;
+  width: auto;
+  background: #fff;
+  padding: 20px 10px 20px;
+}
+
+.contact-img {
+  text-align: center;
 }
 
 .contact-txt {
+  text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size:13px;
 	width:100%;
 	color:#0082a2;
 	letter-spacing:0.1em;
+}
+
+@media (min-width: 500px) {
+  .title-text {
+    width: 500px;
+    position: absolute;
+      top: 40%;
+      left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+}
+
+@media (min-width: 900px) {
+  .right-corner {
+    position: absolute;
+      bottom: -400px;
+      right: -780px;
+    transform: rotate(37deg);
+    height: 1000px;
+    width: 1000px;
+    background: #fff;
+  }
+  .contact {
+    left: auto;
+    background: transparent;
+    width: 350px;
+  }
 }
