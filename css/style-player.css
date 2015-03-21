@@ -190,8 +190,12 @@ a:hover {
 
 /* Media queries */
 @media (min-width: 500px) {
+  html,
   body {
     overflow: hidden;
+  }
+  body {
+    position:relative;
     min-height: 100%;
     padding: 20px 0 0;
   }
@@ -215,9 +219,11 @@ a:hover {
     float: left;
     padding-top: 0;
   }
+
 }
 
 @media (min-width: 900px) {
+
   .right-corner {
     position: absolute;
       bottom: -400px;
@@ -234,6 +240,7 @@ a:hover {
     background: transparent;
     width: 350px;
   }
+
 }
 
 /*!
