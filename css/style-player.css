@@ -150,6 +150,7 @@ a:hover {
   border: 2px solid #fff;
   background: transparent;
   color: #fff;
+  text-align: center;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
 }
