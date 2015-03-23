@@ -72,11 +72,11 @@ a:hover {
   text-align: center;
 }
 .social__btn {
-  width: 34px;
-  height: 34px;
+  width: 42px;
+  height: 42px;
   display: inline-block;
   color: #fff;
-  font-size: 24px;
+  font-size: 30px;
   padding: 2px;
   margin-right: 15px;
   border-radius: 50%;
@@ -84,9 +84,9 @@ a:hover {
 }
 .social__btn .fa {
   height: 34px;
-  -webkit-transform: translate(0, 15%);
-      -ms-transform: translate(0, 15%);
-          transform: translate(0, 15%);
+  -webkit-transform: translate(0, 18%);
+      -ms-transform: translate(0, 18%);
+          transform: translate(0, 18%);
 }
 
 .social__btn:hover,
@@ -94,6 +94,12 @@ a:hover {
 .social__btn:focus {
   cursor: pointer;
   background: #006989;
+}
+
+.fa.fa-linkedin {
+  -webkit-transform: translate(0, 11%);
+      -ms-transform: translate(0, 11%);
+          transform: translate(0, 11%);
 }
 
 .title-text {
@@ -118,6 +124,10 @@ a:hover {
 }
 
 /* Inscription newsletter */
+form .h2 {
+  padding-top: 2px;
+}
+
 .newsletter__input {
   width: 100%;
   border-radius: 0;
@@ -187,14 +197,15 @@ a:hover {
   text-align: center;
 }
 
-.contact-text {
+.contact-text a {
 	font-size: 13px;
-	color: #0082a2;
+	color: #000;
 }
 
 .contact-button {
   font-size: 18px;
-  border: 2px solid #0082a2;
+  color: #000;
+  border: 2px solid #000;
   text-align: center;
   padding: 6px 16px;
 }
@@ -202,6 +213,7 @@ a:hover {
 .contact-button:hover {
   cursor: pointer;
   background: #006989;
+  border-color: #006989;
   color: #fff;
   text-decoration: none;
 }
@@ -210,6 +222,11 @@ a:hover {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+  color: #000;
+}
+
+.dossier-presse a {
+  color: #000;
 }
 
 footer {
