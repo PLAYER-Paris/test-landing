@@ -122,6 +122,7 @@ a:hover {
 .btn-opening:hover {
   cursor: pointer;
   background: #006989;
+  text-decoration: none;
 }
 
 /* Youtube responsive embed */
