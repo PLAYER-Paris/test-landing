@@ -119,6 +119,10 @@ a:hover {
   text-align: center;
   text-transform: uppercase;
 }
+.btn-opening:hover {
+  cursor: pointer;
+  background: #006989;
+}
 
 /* Youtube responsive embed */
 .video-container {
