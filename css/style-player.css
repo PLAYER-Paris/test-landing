@@ -106,6 +106,20 @@ a:hover {
   max-width: 100%;
 }
 
+
+/* Opening button */
+.btn-opening {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* Youtube responsive embed */
 .video-container {
   position: relative;
@@ -253,7 +267,7 @@ footer {
     padding-bottom: 0;
   }
   .video-container {
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
 }
