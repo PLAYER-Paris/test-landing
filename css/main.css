@@ -70,7 +70,8 @@ footer {
 
 .footer-item {
   display: inline-block;
-  text-align: center; }
+  text-align: center;
+  margin-right: 10px; }
   .footer-item .player-btn span {
     display: block;
     text-transform: uppercase;
