@@ -1,0 +1,71 @@
+footer {
+  z-index: 100;
+  position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  margin-top: 40px;
+}
+
+.footer-container {
+  text-align: left;
+  padding: 30px 20px;
+  background: #fff url(../images/ruban.png) 100% 50% no-repeat;
+}
+
+.footer-item {
+  display: inline-block;
+  text-align: center;
+
+  .player-btn {
+
+    span {
+      display: block;
+      text-transform: uppercase;
+      padding-bottom: 8px;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: #fff;
+      background-color: $brand-primary;
+    }
+
+  }
+}
+
+.top-footer {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  background: #000;
+  background: rgba(0,0,0,.3);
+
+  .player-tagline {
+    margin-bottom: 5px;
+  }
+
+  .player-btn {
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #fff;
+    border-color: #fff;
+    font-weight: bold;
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: $brand-primary;
+      border-color: $brand-primary;
+    }
+  }
+}
+
+.sub-footer {
+  background: #fff;
+  padding: 10px;
+  margin: 0;
+  color: $brand-primary;
+  border-top: 1px solid $brand-primary;
+}

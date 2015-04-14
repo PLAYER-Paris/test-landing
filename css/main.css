@@ -1,0 +1,105 @@
+/* Modules */
+.player-btn {
+  line-height: 1;
+  font-size: 14px;
+  display: inline-block;
+  border: 1px solid #e70094;
+  color: #e70094;
+  padding: 10px 20px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out; }
+  .player-btn span {
+    font-size: 18px;
+    font-weight: bold; }
+  .player-btn:hover, .player-btn:active, .player-btn:focus {
+    cursor: pointer;
+    text-decoration: none; }
+
+/* PLAYER Logo */
+.logo-container {
+  margin: 20px 0;
+  padding-left: 20px;
+  float: left; }
+
+.player-logo {
+  display: block;
+  width: 200px;
+  max-width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box; }
+
+/* Social buttons */
+.social {
+  margin: 20px 20px 0 0;
+  text-align: center;
+  float: right; }
+
+.social__btn {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  color: #fff;
+  font-size: 22px;
+  padding: 2px;
+  margin-right: 10px;
+  border: 2px solid #fff;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out; }
+  .social__btn:hover, .social__btn:active, .social__btn:focus {
+    cursor: pointer;
+    color: #e71096;
+    border-color: #e71096; }
+
+.title-text {
+  padding: 15px 10px;
+  max-width: 100%; }
+
+footer {
+  z-index: 100;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-top: 40px; }
+
+.footer-container {
+  text-align: left;
+  padding: 30px 20px;
+  background: #fff url(../images/ruban.png) 100% 50% no-repeat; }
+
+.footer-item {
+  display: inline-block;
+  text-align: center; }
+  .footer-item .player-btn span {
+    display: block;
+    text-transform: uppercase;
+    padding-bottom: 8px; }
+  .footer-item .player-btn:hover, .footer-item .player-btn:active, .footer-item .player-btn:focus {
+    color: #fff;
+    background-color: #e70094; }
+
+.top-footer {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  background: #000;
+  background: rgba(0, 0, 0, 0.3); }
+  .top-footer .player-tagline {
+    margin-bottom: 5px; }
+  .top-footer .player-btn {
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #fff;
+    border-color: #fff;
+    font-weight: bold; }
+    .top-footer .player-btn:hover, .top-footer .player-btn:active, .top-footer .player-btn:focus {
+      color: #e70094;
+      border-color: #e70094; }
+
+.sub-footer {
+  background: #fff;
+  padding: 10px;
+  margin: 0;
+  color: #e70094;
+  border-top: 1px solid #e70094; }

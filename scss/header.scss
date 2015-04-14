@@ -1,0 +1,46 @@
+/* PLAYER Logo */
+.logo-container {
+  margin: 20px 0;
+  padding-left: 20px;
+  float: left;
+}
+.player-logo {
+  display: block;
+  width: 200px;
+  max-width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Social buttons */
+.social {
+  margin: 20px 20px 0 0;
+  text-align: center;
+  float: right;
+}
+.social__btn {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  color: #fff;
+  font-size: 22px;
+  padding: 2px;
+  margin-right: 10px;
+  border: 2px solid #fff;
+  -webkit-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+
+  &:hover,
+  &:active,
+  &:focus {
+    cursor: pointer;
+    color: #e71096;
+    border-color: #e71096;
+  }
+}
+
+.title-text {
+  padding: 15px 10px;
+  max-width: 100%;
+}

@@ -1,0 +1,22 @@
+.player-btn {
+  line-height: 1;
+  font-size: 14px;
+  display: inline-block;
+  border: 1px solid $brand-primary;
+  color: $brand-primary;
+  padding: 10px 20px;
+  -webkit-transition: all 0.2s ease-out;
+          transition: all 0.2s ease-out;
+
+  span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  &:hover,
+  &:active,
+  &:focus {
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
