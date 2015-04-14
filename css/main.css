@@ -43,7 +43,7 @@
   font-size: 22px;
   padding: 2px;
   margin-right: 10px;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out; }
   .social__btn:hover, .social__btn:active, .social__btn:focus {
@@ -86,6 +86,8 @@ footer {
   background: #000;
   background: rgba(0, 0, 0, 0.3); }
   .top-footer .player-tagline {
+    font-size: 18px;
+    margin: 0 0 5px;
     margin-bottom: 5px; }
   .top-footer .player-btn {
     font-size: 28px;
@@ -102,4 +104,5 @@ footer {
   padding: 10px;
   margin: 0;
   color: #e70094;
-  border-top: 1px solid #e70094; }
+  border-top: 1px solid #e70094;
+  font-size: 13px; }

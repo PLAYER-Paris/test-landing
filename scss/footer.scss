@@ -43,6 +43,8 @@ footer {
   background: rgba(0,0,0,.3);
 
   .player-tagline {
+    font-size: 18px;
+    margin: 0 0 5px;
     margin-bottom: 5px;
   }
 
@@ -68,4 +70,5 @@ footer {
   margin: 0;
   color: $brand-primary;
   border-top: 1px solid $brand-primary;
+  font-size: 13px;
 }
