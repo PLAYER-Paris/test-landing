@@ -5,7 +5,7 @@ $(document).ready(function() {
   if($('.bg-youtube-video').length) {
 
     $('.bg-youtube-video .overlay').tubular({
-      videoId: '_JFx9Or2Voo',
+      videoId: 'C5CSVSuUVxY',
       start: 3,
       mute: true
     });
