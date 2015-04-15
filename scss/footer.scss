@@ -8,9 +8,16 @@ footer {
 }
 
 .footer-container {
-  text-align: left;
+  text-align: center;
   padding: 30px 20px;
-  background: #fff url(../images/ruban.png) 100% 50% no-repeat;
+  background: #fff;
+}
+
+@media (min-width: 850px) {
+  .footer-container {
+    text-align: left;
+    background: #fff url(../images/ruban.png) 100% 50% no-repeat;
+  }
 }
 
 .footer-item {

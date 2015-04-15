@@ -17,23 +17,19 @@
 
 /* PLAYER Logo */
 .logo-container {
-  margin: 20px 0;
-  padding-left: 20px;
-  float: left; }
+  text-align: center;
+  margin: 20px 0; }
 
 .player-logo {
   display: block;
-  width: 200px;
   max-width: 100%;
-  padding: 0;
+  padding: 0 10px;
   margin: 0 auto;
   box-sizing: border-box; }
 
 /* Social buttons */
 .social {
-  margin: 20px 20px 0 0;
-  text-align: center;
-  float: right; }
+  text-align: center; }
 
 .social__btn {
   width: 30px;
@@ -55,6 +51,22 @@
   padding: 15px 10px;
   max-width: 100%; }
 
+@media (min-width: 450px) {
+  .logo-container {
+    text-align: none;
+    padding-left: 20px;
+    float: left; }
+  .player-logo {
+    padding: 0;
+    width: 200px; }
+  .social {
+    margin: 20px 20px 0 0;
+    float: right; } }
+
+.replacement-bg-youtube {
+  background: #fff url(../images/replacement.jpeg);
+  background-size: auto !important; }
+
 footer {
   z-index: 100;
   position: absolute;
@@ -64,9 +76,14 @@ footer {
   margin-top: 40px; }
 
 .footer-container {
-  text-align: left;
+  text-align: center;
   padding: 30px 20px;
-  background: #fff url(../images/ruban.png) 100% 50% no-repeat; }
+  background: #fff; }
+
+@media (min-width: 850px) {
+  .footer-container {
+    text-align: left;
+    background: #fff url(../images/ruban.png) 100% 50% no-repeat; } }
 
 .footer-item {
   display: inline-block;
