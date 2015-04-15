@@ -5,7 +5,7 @@ $(document).ready(function() {
   var shouldPlayVideo = $(window).width() > 450;
 
   if (shouldPlayVideo) {
-    $('.bg-youtube-video .overlay').tubular({
+    $('.part-0 .overlay').tubular({
       videoId: 'C5CSVSuUVxY',
       start: 3,
       mute: true
