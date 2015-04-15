@@ -64,8 +64,7 @@
     float: right; } }
 
 .replacement-bg-youtube {
-  background: #fff url(../images/replacement.jpeg);
-  background-size: auto !important; }
+  background: #000; }
 
 footer {
   z-index: 100;
